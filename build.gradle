@@ -46,10 +46,10 @@ dependencies {
   implementation 'ch.qos.logback:logback-core'
   implementation 'org.owasp.encoder:encoder:1.4.0'
 
-  compileOnly 'org.projectlombok:lombok:1.18.46'
-  annotationProcessor 'org.projectlombok:lombok:1.18.46'
-  testCompileOnly 'org.projectlombok:lombok:1.18.46'
-  testAnnotationProcessor 'org.projectlombok:lombok:1.18.46'
+  compileOnly 'org.projectlombok:lombok:1.18.48'
+  annotationProcessor 'org.projectlombok:lombok:1.18.48'
+  testCompileOnly 'org.projectlombok:lombok:1.18.48'
+  testAnnotationProcessor 'org.projectlombok:lombok:1.18.48'
 
   implementation 'org.mapstruct:mapstruct:1.6.3'
   annotationProcessor 'org.mapstruct:mapstruct-processor:1.6.3'
@@ -95,6 +95,6 @@ dependencies {
   testImplementation 'org.wiremock.integrations:wiremock-spring-boot:4.2.2'
   testImplementation 'org.wiremock:wiremock-standalone:3.13.2'
 
-  implementation 'com.azure:azure-identity:1.18.5'
+  implementation 'com.azure:azure-identity:1.18.6'
   implementation 'com.azure:azure-security-keyvault-secrets:4.11.2'
 }
